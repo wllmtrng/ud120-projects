@@ -10,6 +10,7 @@
     
 import sys
 from time import time
+from sklearn import tree
 sys.path.append("../tools/")
 from email_preprocess import preprocess
 
@@ -23,9 +24,14 @@ features_train, features_test, labels_train, labels_test = preprocess()
 
 
 #########################################################
-### your code goes here ###
+t0 = time()
+clf = tree.DecisionTreeClassifier(min_samples_split=40).fit(features_train,
+                                                            labels_train)
+print "Training time:", round(time()-t0, 3), "s"
 
-
+t0 = time()
+print clf.score(features_test, labels_test)
+print "Predicting time:", round(time()-t0, 3), "s"
 #########################################################
 
 
