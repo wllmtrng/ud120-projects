@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+from operator import itemgetter
 
 def outlierCleaner(predictions, ages, net_worths):
     """
@@ -13,8 +14,8 @@ def outlierCleaner(predictions, ages, net_worths):
     
     cleaned_data = []
 
-    ### your code goes here
+    residuals = (net_worths - predictions)**2
+    cleaned_data = sorted(zip(ages, net_worths, residuals), key=itemgetter(2))
 
-    
-    return cleaned_data
+    return cleaned_data[:int(round(len(cleaned_data)*.9))]
 
