@@ -1,4 +1,5 @@
 http://usatoday30.usatoday.com/money/industries/energy/2005-12-28-enron-participants_x.htm
+First column indicates whether or not the email inbox can be found in the Enron dataset
 
 (y) Lay, Kenneth
 (y) Skilling, Jeffrey
