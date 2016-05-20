@@ -24,8 +24,6 @@ from email_preprocess import preprocess
 features_train, features_test, labels_train, labels_test = preprocess()
 
 
-
-
 #########################################################
 t0 = time()
 clf = GaussianNB().fit(features_train, labels_train)

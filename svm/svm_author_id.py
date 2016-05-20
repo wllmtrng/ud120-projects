@@ -80,7 +80,7 @@ clf.predict([features_test[10]])
 clf.predict([features_test[26]])
 clf.predict([features_test[50]])
 
-# There are over 1700 test events--how many are predicted to be in the “Chris”
+# There are over 1700 test events--how many are predicted to be in the "Chris"
 # (1) class? (Use the RBF kernel, C=10000., and the full training set.)
 clf = SVC(C=10000., kernel='rbf').fit(features_train, labels_train)
 pred = clf.predict(features_test)
