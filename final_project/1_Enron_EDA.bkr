@@ -60,8 +60,8 @@
                 "state": {},
                 "selectedType": "BeakerDisplay",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 383
+                "shellId": "3D8E82476D4D4E7BAB5EA3E7E565D07C",
+                "elapsedTime": 442
             },
             "evaluatorReader": true,
             "lineCount": 4
@@ -88,8 +88,8 @@
                 },
                 "selectedType": "Results",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 271,
+                "shellId": "3D8E82476D4D4E7BAB5EA3E7E565D07C",
+                "elapsedTime": 358,
                 "height": 35
             },
             "evaluatorReader": true,
@@ -194,8 +194,8 @@
                 },
                 "selectedType": "Results",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 291,
+                "shellId": "3D8E82476D4D4E7BAB5EA3E7E565D07C",
+                "elapsedTime": 923,
                 "height": 627
             },
             "evaluatorReader": true,
@@ -243,8 +243,8 @@
                 "state": {},
                 "selectedType": "BeakerDisplay",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 358
+                "shellId": "3D8E82476D4D4E7BAB5EA3E7E565D07C",
+                "elapsedTime": 466
             },
             "evaluatorReader": true,
             "lineCount": 1
@@ -263,8 +263,8 @@
                 "result": "<div class=\"output_subarea output_text\"><pre>('METTS MARK',\n {'bonus': 600000,\n  'deferral_payments': 'NaN',\n  'deferred_income': 'NaN',\n  'director_fees': 'NaN',\n  'email_address': 'mark.metts@enron.com',\n  'exercised_stock_options': 'NaN',\n  'expenses': 94299,\n  'from_messages': 29,\n  'from_poi_to_this_person': 38,\n  'from_this_person_to_poi': 1,\n  'loan_advances': 'NaN',\n  'long_term_incentive': 'NaN',\n  'other': 1740,\n  'poi': False,\n  'restricted_stock': 585062,\n  'restricted_stock_deferred': 'NaN',\n  'salary': 365788,\n  'shared_receipt_with_poi': 702,\n  'to_messages': 807,\n  'total_payments': 1061827,\n  'total_stock_value': 585062})</pre></div>",
                 "selectedType": "Html",
                 "pluginName": "IPython",
-                "shellId": "E297652797544C1B8EBB30ECEBB55079",
-                "elapsedTime": 255,
+                "shellId": "3D8E82476D4D4E7BAB5EA3E7E565D07C",
+                "elapsedTime": 380,
                 "dataresult": [
                     "METTS MARK",
                     {
@@ -291,7 +291,7 @@
                         "from_poi_to_this_person": 38
                     }
                 ],
-                "height": 395
+                "height": 369
             },
             "evaluatorReader": true
         },
@@ -318,10 +318,10 @@
                 "result": "<div class=\"output_subarea output_text\"><pre>146</pre></div>",
                 "selectedType": "Html",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 297,
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 271,
                 "dataresult": 146,
-                "height": 59
+                "height": 34
             },
             "evaluatorReader": true
         },
@@ -348,12 +348,13 @@
                 "result": "<div class=\"output_subarea output_text\"><pre>21</pre></div>",
                 "selectedType": "Html",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 261,
+                "shellId": "3D8E82476D4D4E7BAB5EA3E7E565D07C",
+                "elapsedTime": 683,
                 "dataresult": 21,
-                "height": 59
+                "height": 34
             },
-            "evaluatorReader": true
+            "evaluatorReader": true,
+            "lineCount": 1
         },
         {
             "id": "markdownJZgf8D",
@@ -382,8 +383,8 @@
                 "state": {},
                 "height": 34,
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 396
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 1214
             },
             "evaluatorReader": true
         },
@@ -408,7 +409,7 @@
                 "state": {
                     "datatablestate": {
                         "pagination": {
-                            "use": false,
+                            "use": true,
                             "rowsToDisplay": 25,
                             "fixLeft": 0,
                             "fixRight": 0
@@ -538,10 +539,10 @@
                         "columnWidth": []
                     }
                 },
-                "height": 595,
+                "height": 646,
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 741,
+                "shellId": "3D8E82476D4D4E7BAB5EA3E7E565D07C",
+                "elapsedTime": 870,
                 "result": {
                     "columnNames": [
                         "Index",
@@ -4111,6 +4112,7 @@
             "evaluator": "IPython",
             "input": {
                 "body": [
+                    "",
                     "# Omit the TOTAL index",
                     "enron_df.drop('TOTAL', inplace=True)"
                 ]
@@ -4119,11 +4121,11 @@
                 "state": {},
                 "selectedType": "Hidden",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 713
+                "shellId": "3D8E82476D4D4E7BAB5EA3E7E565D07C",
+                "elapsedTime": 755
             },
             "evaluatorReader": true,
-            "lineCount": 2
+            "lineCount": 3
         },
         {
             "id": "markdownF2oq81",
@@ -4322,9 +4324,9 @@
                 },
                 "selectedType": "Table",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 459,
-                "height": 231
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 576,
+                "height": 246
             },
             "evaluatorReader": true
         },
@@ -4516,9 +4518,9 @@
                 },
                 "selectedType": "Table",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 417,
-                "height": 231
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 732,
+                "height": 246
             },
             "evaluatorReader": true
         },
@@ -4689,9 +4691,9 @@
                 },
                 "selectedType": "Table",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 392,
-                "height": 231
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 808,
+                "height": 246
             },
             "evaluatorReader": true
         },
@@ -4701,6 +4703,7 @@
             "type": "code",
             "input": {
                 "body": [
+                    "",
                     "enron_df.iloc[0]"
                 ]
             },
@@ -4839,13 +4842,13 @@
                 },
                 "selectedType": "Table",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 373,
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 880,
                 "dataresult": "Nan",
                 "height": 517
             },
             "evaluatorReader": true,
-            "lineCount": 1
+            "lineCount": 2
         },
         {
             "id": "markdown0tgKxp",
@@ -4870,6 +4873,8 @@
             "type": "code",
             "input": {
                 "body": [
+                    "",
+                    "",
                     "from os import listdir",
                     "listdir(\"../maildir\")[:10]"
                 ]
@@ -4879,8 +4884,8 @@
                 "result": "<div class=\"output_subarea output_text\"><pre>['.DS_Store',\n 'allen-p',\n 'arnold-j',\n 'arora-h',\n 'badeer-r',\n 'bailey-s',\n 'bass-e',\n 'baughman-d',\n 'beck-s',\n 'benson-r']</pre></div>",
                 "selectedType": "Html",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 661,
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 775,
                 "dataresult": [
                     ".DS_Store",
                     "allen-p",
@@ -4893,10 +4898,10 @@
                     "beck-s",
                     "benson-r"
                 ],
-                "height": 203
+                "height": 177
             },
             "evaluatorReader": true,
-            "lineCount": 2
+            "lineCount": 4
         },
         {
             "id": "code9aRxvT",
@@ -4912,8 +4917,8 @@
                 "result": "<div class=\"output_subarea output_text\"><pre>['_sent_mail',\n 'all_documents',\n 'contacts',\n 'deleted_items',\n 'discussion_threads',\n 'inbox',\n 'notes_inbox',\n 'sent',\n 'sent_items',\n 'straw']</pre></div>",
                 "selectedType": "Html",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 497,
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 418,
                 "dataresult": [
                     "_sent_mail",
                     "all_documents",
@@ -4926,7 +4931,7 @@
                     "sent_items",
                     "straw"
                 ],
-                "height": 203
+                "height": 177
             },
             "evaluatorReader": true,
             "lineCount": 1
@@ -4937,6 +4942,8 @@
             "type": "code",
             "input": {
                 "body": [
+                    "",
+                    "",
                     "listdir(\"../maildir/allen-p/inbox\")[:10]"
                 ]
             },
@@ -4945,8 +4952,8 @@
                 "result": "<div class=\"output_subarea output_text\"><pre>['1.', '10.', '11.', '12.', '13.', '14.', '15.', '16.', '17.', '18.']</pre></div>",
                 "selectedType": "Html",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 622,
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 345,
                 "dataresult": [
                     "1.",
                     "10.",
@@ -4959,10 +4966,10 @@
                     "17.",
                     "18."
                 ],
-                "height": 59
+                "height": 34
             },
             "evaluatorReader": true,
-            "lineCount": 1
+            "lineCount": 3
         },
         {
             "id": "markdowntsnsgA",
@@ -5500,8 +5507,8 @@
                 },
                 "selectedType": "Results",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 695,
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 345,
                 "dataresult": {
                     "METTS MARK": {
                         "salary": 365788,
@@ -8876,20 +8883,12 @@
             "evaluatorReader": false
         },
         {
-            "id": "markdownJaoizG",
-            "type": "markdown",
-            "body": [
-                "### Top Three Total Payments"
-            ],
-            "evaluatorReader": false
-        },
-        {
             "id": "codeUDgZcV",
             "type": "code",
             "evaluator": "IPython",
             "input": {
                 "body": [
-                    "enron_df.sort_values('salary',ascending=False)[:3]"
+                    "enron_df[['salary', 'poi']].sort_values('salary',ascending=False)[:10]"
                 ]
             },
             "output": {
@@ -8903,117 +8902,22 @@
                         },
                         "columnNames": [
                             "salary",
-                            "to_messages",
-                            "deferral_payments",
-                            "total_payments",
-                            "exercised_stock_options",
-                            "bonus",
-                            "restricted_stock",
-                            "shared_receipt_with_poi",
-                            "restricted_stock_deferred",
-                            "total_stock_value",
-                            "expenses",
-                            "loan_advances",
-                            "from_messages",
-                            "other",
-                            "from_this_person_to_poi",
-                            "poi",
-                            "director_fees",
-                            "deferred_income",
-                            "long_term_incentive",
-                            "email_address",
-                            "from_poi_to_this_person"
+                            "poi"
                         ],
                         "actualtype": [
                             "4.4",
-                            "4.4",
-                            0,
-                            "4.4",
-                            "4.4",
-                            "4.4",
-                            "4.4",
-                            "4.4",
-                            0,
-                            "4.4",
-                            "4.4",
-                            0,
-                            "4.4",
-                            "4.4",
-                            "4.4",
-                            0,
-                            0,
-                            0,
-                            "4.4",
-                            0,
-                            "4.4"
+                            0
                         ],
                         "actualalign": [
                             "R",
-                            "R",
-                            "L",
-                            "R",
-                            "R",
-                            "R",
-                            "R",
-                            "R",
-                            "L",
-                            "R",
-                            "R",
-                            "L",
-                            "R",
-                            "R",
-                            "R",
-                            "L",
-                            "L",
-                            "L",
-                            "R",
-                            "L",
-                            "R"
+                            "L"
                         ],
                         "colorder": [
                             0,
                             1,
-                            2,
-                            3,
-                            4,
-                            5,
-                            6,
-                            7,
-                            8,
-                            9,
-                            10,
-                            11,
-                            12,
-                            13,
-                            14,
-                            15,
-                            16,
-                            17,
-                            18,
-                            19,
-                            20,
-                            21
+                            2
                         ],
                         "getCellSho": [
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
-                            true,
                             true,
                             true
                         ],
@@ -9036,100 +8940,59 @@
                     "columnNames": [
                         "Index",
                         "salary",
-                        "to_messages",
-                        "deferral_payments",
-                        "total_payments",
-                        "exercised_stock_options",
-                        "bonus",
-                        "restricted_stock",
-                        "shared_receipt_with_poi",
-                        "restricted_stock_deferred",
-                        "total_stock_value",
-                        "expenses",
-                        "loan_advances",
-                        "from_messages",
-                        "other",
-                        "from_this_person_to_poi",
-                        "poi",
-                        "director_fees",
-                        "deferred_income",
-                        "long_term_incentive",
-                        "email_address",
-                        "from_poi_to_this_person"
+                        "poi"
                     ],
                     "subtype": "TableDisplay",
                     "values": [
                         [
                             "SKILLING JEFFREY K",
                             1111258,
-                            3627,
-                            "NaN",
-                            8682716,
-                            19250000,
-                            5600000,
-                            6843672,
-                            2042,
-                            "NaN",
-                            26093672,
-                            29336,
-                            "NaN",
-                            108,
-                            22122,
-                            30,
-                            true,
-                            "NaN",
-                            "NaN",
-                            1920000,
-                            "jeff.skilling@enron.com",
-                            88
+                            true
                         ],
                         [
                             "LAY KENNETH L",
                             1072321,
-                            4273,
-                            202911,
-                            103559793,
-                            34348384,
-                            7000000,
-                            14761694,
-                            2411,
-                            "NaN",
-                            49110078,
-                            99832,
-                            81525000,
-                            36,
-                            10359729,
-                            16,
-                            true,
-                            "NaN",
-                            -300000,
-                            3600000,
-                            "kenneth.lay@enron.com",
-                            123
+                            true
                         ],
                         [
                             "FREVERT MARK A",
                             1060932,
-                            3275,
-                            6426990,
-                            17252530,
-                            10433518,
-                            2000000,
-                            4188667,
-                            2979,
-                            "NaN",
-                            14622185,
-                            86987,
-                            2000000,
-                            21,
-                            7427621,
-                            6,
-                            false,
-                            "NaN",
-                            -3367011,
-                            1617011,
-                            "mark.frevert@enron.com",
-                            242
+                            false
+                        ],
+                        [
+                            "PICKERING MARK R",
+                            655037,
+                            false
+                        ],
+                        [
+                            "WHALLEY LAWRENCE G",
+                            510364,
+                            false
+                        ],
+                        [
+                            "DERRICK JR. JAMES V",
+                            492375,
+                            false
+                        ],
+                        [
+                            "FASTOW ANDREW S",
+                            440698,
+                            true
+                        ],
+                        [
+                            "SHERRIFF JOHN R",
+                            428780,
+                            false
+                        ],
+                        [
+                            "RICE KENNETH D",
+                            420636,
+                            true
+                        ],
+                        [
+                            "CAUSEY RICHARD A",
+                            415189,
+                            true
                         ]
                     ],
                     "hasIndex": "true",
@@ -9137,67 +9000,3733 @@
                     "types": [
                         "string",
                         "double",
-                        "double",
-                        "string",
-                        "double",
-                        "double",
-                        "double",
-                        "double",
-                        "double",
-                        "string",
-                        "double",
-                        "double",
-                        "string",
-                        "double",
-                        "double",
-                        "double",
-                        "boolean",
-                        "string",
-                        "string",
-                        "double",
-                        "string",
-                        "double"
+                        "boolean"
                     ]
                 },
                 "selectedType": "Table",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 442,
-                "height": 136
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 322,
+                "height": 275
             },
             "evaluatorReader": true,
             "lineCount": 1
         },
         {
-            "id": "markdownzltLzs",
-            "type": "markdown",
-            "body": [
-                "Two out of the people listed above are persons of interest."
-            ],
-            "evaluatorReader": false
-        },
-        {
-            "id": "codeEZMac8",
-            "evaluator": "IPython",
+            "id": "codep8CNOO",
             "type": "code",
+            "evaluator": "IPython",
             "input": {
                 "body": [
-                    "def css_styling():",
-                    "    styles = open(\"./styles/custom0.css\", \"r\").read()",
-                    "    return disp.HTML(styles)",
-                    "css_styling()"
+                    "enron_df[['salary', 'poi']].sort_values('salary', ascending=True)[:10]"
                 ]
             },
             "output": {
-                "state": {},
-                "result": "<div class=\"output_subarea output_html rendered_html\"><style>\n    @font-face {\n        font-family: \"Computer Modern\";\n        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunss.otf');\n    }\n    @font-face {\n        font-family: \"Computer Modern\";\n        font-weight: bold;\n        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunsx.otf');\n    }\n    @font-face {\n        font-family: \"Computer Modern\";\n        font-style: oblique;\n        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunsi.otf');\n    }\n    @font-face {\n        font-family: \"Computer Modern\";\n        font-weight: bold;\n        font-style: oblique;\n        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunso.otf');\n    }\n\n    div.CodeMirror { /* code font */\n        font-family: \"Consolas\", monospace;\n        font-size: 10pt;\n    }\n\n    code { /* code font */\n        font-family: \"Consolas\", monospace !important;\n        font-size: 10pt !important;\n    }\n\n    div.text_cell_render{\n        font-family: Computer Modern, \"Helvetica Neue\", Arial, Helvetica, Geneva, sans-serif;\n        font-size: 115%;\n        padding: 0;\n    }\n    /* header colours and fonts */\n    h1 {\n        color: #444;\n    }\n    h2 { color: #444; }\n    h3\n    {\n         color: #444;\n         font-style: italic;\n         font-weight: bold;\n         font-size: 130% !important;\n         margin-top: 0.6em !important;\n    }\n    h4\n    {\n        margin-top: 0.5em !important;\n        color: #444;\n    }\n    h5 { color: #444; }\n    h6 { color: #444; }\n\n    ul {margin-top: 0em !important}\n    ol {margin-top: 0em !important}\n    p {margin-top: 0.4em !important}\n\n    div.output_subarea\n    {\n      padding: 1em;\n    }\n</style>\n<script>\n    MathJax.Hub.Config({\n                        TeX: {\n                           extensions: [\"AMSmath.js\"]\n                           },\n                tex2jax: {\n                    inlineMath: [ ['$','$'], [\"\\\\(\",\"\\\\)\"] ],\n                    displayMath: [ ['$$','$$'], [\"\\\\[\",\"\\\\]\"] ]\n                },\n                displayAlign: 'center', // Change this to 'center' to center equations.\n/*              displayIndent: \"4em\",*/\n                \"HTML-CSS\": {\n                    styles: {'.MathJax_Display': {\"margin\": 4}}\n                }\n        });\n</script>\n</div>",
-                "selectedType": "Html",
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "salary",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "salary",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "BANNANTINE JAMES M",
+                            477,
+                            false
+                        ],
+                        [
+                            "GRAY RODNEY",
+                            6615,
+                            false
+                        ],
+                        [
+                            "WESTFAHL RICHARD K",
+                            63744,
+                            false
+                        ],
+                        [
+                            "REYNOLDS LAWRENCE",
+                            76399,
+                            false
+                        ],
+                        [
+                            "BAZELIDES PHILIP J",
+                            80818,
+                            false
+                        ],
+                        [
+                            "IZZO LAWRENCE L",
+                            85274,
+                            false
+                        ],
+                        [
+                            "OVERDYKE JR JERE C",
+                            94941,
+                            false
+                        ],
+                        [
+                            "REDMOND BRIAN L",
+                            96840,
+                            false
+                        ],
+                        [
+                            "HUMPHREY GENE E",
+                            130724,
+                            false
+                        ],
+                        [
+                            "YEAGER F SCOTT",
+                            158403,
+                            true
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
                 "pluginName": "IPython",
-                "shellId": "1667AECED4014FC5815EE16436EEE33B",
-                "elapsedTime": 371,
-                "height": 43
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 333,
+                "height": 275
             },
-            "evaluatorReader": true
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeX5lfX0",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['to_messages', 'poi']].sort_values('to_messages', ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "to_messages",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "to_messages",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "SHAPIRO RICHARD S",
+                            15149,
+                            false
+                        ],
+                        [
+                            "KEAN STEVEN J",
+                            12754,
+                            false
+                        ],
+                        [
+                            "KITCHEN LOUISE",
+                            8305,
+                            false
+                        ],
+                        [
+                            "BELDEN TIMOTHY N",
+                            7991,
+                            true
+                        ],
+                        [
+                            "BECK SALLY W",
+                            7315,
+                            false
+                        ],
+                        [
+                            "LAVORATO JOHN J",
+                            7259,
+                            false
+                        ],
+                        [
+                            "WHALLEY LAWRENCE G",
+                            6019,
+                            false
+                        ],
+                        [
+                            "KAMINSKI WINCENTY J",
+                            4607,
+                            false
+                        ],
+                        [
+                            "LAY KENNETH L",
+                            4273,
+                            true
+                        ],
+                        [
+                            "HAEDICKE MARK E",
+                            4009,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 466,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "code6CYLq2",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['to_messages', 'poi']].sort_values('to_messages', ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "to_messages",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "to_messages",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "FOY JOE",
+                            57,
+                            false
+                        ],
+                        [
+                            "PIRO JIM",
+                            58,
+                            false
+                        ],
+                        [
+                            "COX DAVID",
+                            102,
+                            false
+                        ],
+                        [
+                            "UMANOFF ADAM S",
+                            111,
+                            false
+                        ],
+                        [
+                            "HUMPHREY GENE E",
+                            128,
+                            false
+                        ],
+                        [
+                            "MULLER MARK S",
+                            136,
+                            false
+                        ],
+                        [
+                            "GIBBS DANA R",
+                            169,
+                            false
+                        ],
+                        [
+                            "DODSON KEITH",
+                            176,
+                            false
+                        ],
+                        [
+                            "GARLAND C KEVIN",
+                            209,
+                            false
+                        ],
+                        [
+                            "SHELBY REX",
+                            225,
+                            true
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 369,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeYJ2pVj",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['deferral_payments', 'poi']].sort_values('deferral_payments', ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "deferral_payments",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "deferral_payments",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "FREVERT MARK A",
+                            6426990,
+                            false
+                        ],
+                        [
+                            "HORTON STANLEY C",
+                            3131860,
+                            false
+                        ],
+                        [
+                            "HUMPHREY GENE E",
+                            2964506,
+                            false
+                        ],
+                        [
+                            "ALLEN PHILLIP K",
+                            2869717,
+                            false
+                        ],
+                        [
+                            "HAEDICKE MARK E",
+                            2157527,
+                            false
+                        ],
+                        [
+                            "BELDEN TIMOTHY N",
+                            2144013,
+                            true
+                        ],
+                        [
+                            "MEYER ROCKFORD G",
+                            1848227,
+                            false
+                        ],
+                        [
+                            "BAXTER JOHN C",
+                            1295738,
+                            false
+                        ],
+                        [
+                            "PIPER GREGORY F",
+                            1130036,
+                            false
+                        ],
+                        [
+                            "DETMERING TIMOTHY J",
+                            875307,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 436,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codezCliFP",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['deferral_payments', 'poi']].sort_values('deferral_payments', ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "deferral_payments",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "deferral_payments",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "BELFER ROBERT",
+                            -102500,
+                            false
+                        ],
+                        [
+                            "HAYES ROBERT E",
+                            7961,
+                            false
+                        ],
+                        [
+                            "HIRKO JOSEPH",
+                            10259,
+                            true
+                        ],
+                        [
+                            "THORN TERENCE H",
+                            16586,
+                            false
+                        ],
+                        [
+                            "COLWELL WESLEY",
+                            27610,
+                            true
+                        ],
+                        [
+                            "FUGH JOHN L",
+                            50591,
+                            false
+                        ],
+                        [
+                            "REYNOLDS LAWRENCE",
+                            51365,
+                            false
+                        ],
+                        [
+                            "WALTERS GARETH W",
+                            53625,
+                            false
+                        ],
+                        [
+                            "GAHN ROBERT S",
+                            73122,
+                            false
+                        ],
+                        [
+                            "OLSON CINDY K",
+                            77716,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 345,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeLyd0J3",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['total_payments', 'poi']].sort_values('total_payments', ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "total_payments",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "total_payments",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "LAY KENNETH L",
+                            103559793,
+                            true
+                        ],
+                        [
+                            "FREVERT MARK A",
+                            17252530,
+                            false
+                        ],
+                        [
+                            "BHATNAGAR SANJAY",
+                            15456290,
+                            false
+                        ],
+                        [
+                            "LAVORATO JOHN J",
+                            10425757,
+                            false
+                        ],
+                        [
+                            "SKILLING JEFFREY K",
+                            8682716,
+                            true
+                        ],
+                        [
+                            "MARTIN AMANDA K",
+                            8407016,
+                            false
+                        ],
+                        [
+                            "BAXTER JOHN C",
+                            5634343,
+                            false
+                        ],
+                        [
+                            "BELDEN TIMOTHY N",
+                            5501630,
+                            true
+                        ],
+                        [
+                            "DELAINEY DAVID W",
+                            4747979,
+                            true
+                        ],
+                        [
+                            "WHALLEY LAWRENCE G",
+                            4677574,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 542,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeHhrhjZ",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['total_payments', 'poi']].sort_values('total_payments', ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "total_payments",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "total_payments",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "MENDELSOHN JOHN",
+                            148,
+                            false
+                        ],
+                        [
+                            "HAUG DAVID L",
+                            475,
+                            false
+                        ],
+                        [
+                            "BLAKE JR. NORMAN P",
+                            1279,
+                            false
+                        ],
+                        [
+                            "MEYER JEROME J",
+                            2151,
+                            false
+                        ],
+                        [
+                            "SAVAGE FRANK",
+                            3750,
+                            false
+                        ],
+                        [
+                            "HAYES ROBERT E",
+                            7961,
+                            false
+                        ],
+                        [
+                            "PEREIRA PAULO V. FERRAZ",
+                            27942,
+                            false
+                        ],
+                        [
+                            "BROWN MICHAEL",
+                            49288,
+                            false
+                        ],
+                        [
+                            "FUGH JOHN L",
+                            50591,
+                            false
+                        ],
+                        [
+                            "YEAP SOON",
+                            55097,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 386,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codetKeOdk",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['exercised_stock_options', 'poi']].sort_values('exercised_stock_options', ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "exercised_stock_options",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "exercised_stock_options",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "LAY KENNETH L",
+                            34348384,
+                            true
+                        ],
+                        [
+                            "HIRKO JOSEPH",
+                            30766064,
+                            true
+                        ],
+                        [
+                            "RICE KENNETH D",
+                            19794175,
+                            true
+                        ],
+                        [
+                            "SKILLING JEFFREY K",
+                            19250000,
+                            true
+                        ],
+                        [
+                            "PAI LOU L",
+                            15364167,
+                            false
+                        ],
+                        [
+                            "FREVERT MARK A",
+                            10433518,
+                            false
+                        ],
+                        [
+                            "DERRICK JR. JAMES V",
+                            8831913,
+                            false
+                        ],
+                        [
+                            "YEAGER F SCOTT",
+                            8308552,
+                            true
+                        ],
+                        [
+                            "DIMICHELE RICHARD G",
+                            8191755,
+                            false
+                        ],
+                        [
+                            "REDMOND BRIAN L",
+                            7509039,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 428,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "code09B4UM",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['exercised_stock_options', 'poi']].sort_values('exercised_stock_options', ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "exercised_stock_options",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "exercised_stock_options",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "BELFER ROBERT",
+                            3285,
+                            false
+                        ],
+                        [
+                            "GILLIS JOHN",
+                            9803,
+                            false
+                        ],
+                        [
+                            "DEFFNER JOSEPH M",
+                            17378,
+                            false
+                        ],
+                        [
+                            "PICKERING MARK R",
+                            28798,
+                            false
+                        ],
+                        [
+                            "MORAN MICHAEL P",
+                            59539,
+                            false
+                        ],
+                        [
+                            "KITCHEN LOUISE",
+                            81042,
+                            false
+                        ],
+                        [
+                            "GAHN ROBERT S",
+                            83237,
+                            false
+                        ],
+                        [
+                            "WHALEY DAVID A",
+                            98718,
+                            false
+                        ],
+                        [
+                            "COX DAVID",
+                            117551,
+                            false
+                        ],
+                        [
+                            "WROBEL BRUCE",
+                            139130,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 533,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeqkRVch",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['bonus', 'poi']].sort_values('bonus', ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "bonus",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "bonus",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "LAVORATO JOHN J",
+                            8000000,
+                            false
+                        ],
+                        [
+                            "LAY KENNETH L",
+                            7000000,
+                            true
+                        ],
+                        [
+                            "SKILLING JEFFREY K",
+                            5600000,
+                            true
+                        ],
+                        [
+                            "BELDEN TIMOTHY N",
+                            5249999,
+                            true
+                        ],
+                        [
+                            "ALLEN PHILLIP K",
+                            4175000,
+                            false
+                        ],
+                        [
+                            "KITCHEN LOUISE",
+                            3100000,
+                            false
+                        ],
+                        [
+                            "DELAINEY DAVID W",
+                            3000000,
+                            true
+                        ],
+                        [
+                            "WHALLEY LAWRENCE G",
+                            3000000,
+                            false
+                        ],
+                        [
+                            "MCMAHON JEFFREY",
+                            2600000,
+                            false
+                        ],
+                        [
+                            "FALLON JAMES B",
+                            2500000,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 636,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codedFWjqZ",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['bonus', 'poi']].sort_values('bonus', ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "bonus",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "bonus",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "DODSON KEITH",
+                            70000,
+                            false
+                        ],
+                        [
+                            "SULLIVAN-SHAKLOVITZ COLLEEN",
+                            100000,
+                            false
+                        ],
+                        [
+                            "REYNOLDS LAWRENCE",
+                            100000,
+                            false
+                        ],
+                        [
+                            "ECHOLS JOHN B",
+                            200000,
+                            false
+                        ],
+                        [
+                            "LINDHOLM TOD A",
+                            200000,
+                            false
+                        ],
+                        [
+                            "SHELBY REX",
+                            200000,
+                            true
+                        ],
+                        [
+                            "JACKSON CHARLENE R",
+                            250000,
+                            false
+                        ],
+                        [
+                            "BERGSIEKER RICHARD P",
+                            250000,
+                            false
+                        ],
+                        [
+                            "CARTER REBECCA C",
+                            300000,
+                            false
+                        ],
+                        [
+                            "TILNEY ELIZABETH A",
+                            300000,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 490,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeHyiAVM",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['restricted_stock', 'poi']].sort_values('restricted_stock', ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "restricted_stock",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "restricted_stock",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "LAY KENNETH L",
+                            14761694,
+                            true
+                        ],
+                        [
+                            "WHITE JR THOMAS E",
+                            13847074,
+                            false
+                        ],
+                        [
+                            "PAI LOU L",
+                            8453763,
+                            false
+                        ],
+                        [
+                            "SKILLING JEFFREY K",
+                            6843672,
+                            true
+                        ],
+                        [
+                            "FREVERT MARK A",
+                            4188667,
+                            false
+                        ],
+                        [
+                            "KEAN STEVEN J",
+                            4131594,
+                            false
+                        ],
+                        [
+                            "BAXTER JOHN C",
+                            3942714,
+                            false
+                        ],
+                        [
+                            "IZZO LAWRENCE L",
+                            3654808,
+                            false
+                        ],
+                        [
+                            "YEAGER F SCOTT",
+                            3576206,
+                            true
+                        ],
+                        [
+                            "WHALLEY LAWRENCE G",
+                            2796177,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 647,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeWvOJz6",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['restricted_stock', 'poi']].sort_values('restricted_stock', ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "restricted_stock",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "asc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "restricted_stock",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "BHATNAGAR SANJAY",
+                            -2604490,
+                            false
+                        ],
+                        [
+                            "CHAN RONNIE",
+                            32460,
+                            false
+                        ],
+                        [
+                            "JAEDICKE ROBERT",
+                            44093,
+                            false
+                        ],
+                        [
+                            "PIRO JIM",
+                            47304,
+                            false
+                        ],
+                        [
+                            "GILLIS JOHN",
+                            75838,
+                            false
+                        ],
+                        [
+                            "MCCARTY DANNY J",
+                            94556,
+                            false
+                        ],
+                        [
+                            "DIMICHELE RICHARD G",
+                            126027,
+                            false
+                        ],
+                        [
+                            "KAMINSKI WINCENTY J",
+                            126027,
+                            false
+                        ],
+                        [
+                            "CALGER CHRISTOPHER F",
+                            126027,
+                            true
+                        ],
+                        [
+                            "ALLEN PHILLIP K",
+                            126027,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 654,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codejcAAOa",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['shared_receipt_with_poi', 'poi']].sort_values('shared_receipt_with_poi', ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "shared_receipt_with_poi",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "shared_receipt_with_poi",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "BELDEN TIMOTHY N",
+                            5521,
+                            true
+                        ],
+                        [
+                            "SHAPIRO RICHARD S",
+                            4527,
+                            false
+                        ],
+                        [
+                            "LAVORATO JOHN J",
+                            3962,
+                            false
+                        ],
+                        [
+                            "WHALLEY LAWRENCE G",
+                            3920,
+                            false
+                        ],
+                        [
+                            "KITCHEN LOUISE",
+                            3669,
+                            false
+                        ],
+                        [
+                            "KEAN STEVEN J",
+                            3639,
+                            false
+                        ],
+                        [
+                            "FREVERT MARK A",
+                            2979,
+                            false
+                        ],
+                        [
+                            "LEFF DANIEL P",
+                            2672,
+                            false
+                        ],
+                        [
+                            "BECK SALLY W",
+                            2639,
+                            false
+                        ],
+                        [
+                            "SUNDE MARTIN",
+                            2565,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 633,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeMe0C84",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['shared_receipt_with_poi', 'poi']].sort_values('shared_receipt_with_poi', ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "shared_receipt_with_poi",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "shared_receipt_with_poi",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "FOY JOE",
+                            2,
+                            false
+                        ],
+                        [
+                            "PIRO JIM",
+                            3,
+                            false
+                        ],
+                        [
+                            "FOWLER PEGGY",
+                            10,
+                            false
+                        ],
+                        [
+                            "POWERS WILLIAM",
+                            12,
+                            false
+                        ],
+                        [
+                            "MEYER ROCKFORD G",
+                            22,
+                            false
+                        ],
+                        [
+                            "GIBBS DANA R",
+                            23,
+                            false
+                        ],
+                        [
+                            "BUCHANAN HAROLD G",
+                            23,
+                            false
+                        ],
+                        [
+                            "UMANOFF ADAM S",
+                            41,
+                            false
+                        ],
+                        [
+                            "HAYES ROBERT E",
+                            50,
+                            false
+                        ],
+                        [
+                            "CORDES WILLIAM R",
+                            58,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 434,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeSSkLiK",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['total_stock_value', 'poi']].sort_values('total_stock_value', ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "total_stock_value",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "total_stock_value",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "LAY KENNETH L",
+                            49110078,
+                            true
+                        ],
+                        [
+                            "HIRKO JOSEPH",
+                            30766064,
+                            true
+                        ],
+                        [
+                            "SKILLING JEFFREY K",
+                            26093672,
+                            true
+                        ],
+                        [
+                            "PAI LOU L",
+                            23817930,
+                            false
+                        ],
+                        [
+                            "RICE KENNETH D",
+                            22542539,
+                            true
+                        ],
+                        [
+                            "WHITE JR THOMAS E",
+                            15144123,
+                            false
+                        ],
+                        [
+                            "FREVERT MARK A",
+                            14622185,
+                            false
+                        ],
+                        [
+                            "YEAGER F SCOTT",
+                            11884758,
+                            true
+                        ],
+                        [
+                            "BAXTER JOHN C",
+                            10623258,
+                            false
+                        ],
+                        [
+                            "DERRICK JR. JAMES V",
+                            8831913,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 705,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "code4nwLeu",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['total_stock_value', 'poi']].sort_values('total_stock_value', ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "total_stock_value",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "asc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "total_stock_value",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "BELFER ROBERT",
+                            -44093,
+                            false
+                        ],
+                        [
+                            "PICKERING MARK R",
+                            28798,
+                            false
+                        ],
+                        [
+                            "PIRO JIM",
+                            47304,
+                            false
+                        ],
+                        [
+                            "BAY FRANKLIN R",
+                            63014,
+                            false
+                        ],
+                        [
+                            "GILLIS JOHN",
+                            85641,
+                            false
+                        ],
+                        [
+                            "WHALEY DAVID A",
+                            98718,
+                            false
+                        ],
+                        [
+                            "BECK SALLY W",
+                            126027,
+                            false
+                        ],
+                        [
+                            "CALGER CHRISTOPHER F",
+                            126027,
+                            true
+                        ],
+                        [
+                            "WROBEL BRUCE",
+                            139130,
+                            false
+                        ],
+                        [
+                            "HAYES ROBERT E",
+                            151418,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 491,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeFOq9Uk",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['from_messages', 'poi']].sort_values('from_messages', ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "from_messages",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "from_messages",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "KAMINSKI WINCENTY J",
+                            14368,
+                            false
+                        ],
+                        [
+                            "KEAN STEVEN J",
+                            6759,
+                            false
+                        ],
+                        [
+                            "BECK SALLY W",
+                            4343,
+                            false
+                        ],
+                        [
+                            "DELAINEY DAVID W",
+                            3069,
+                            true
+                        ],
+                        [
+                            "MCCONNELL MICHAEL S",
+                            2742,
+                            false
+                        ],
+                        [
+                            "SHANKMAN JEFFREY A",
+                            2681,
+                            false
+                        ],
+                        [
+                            "LAVORATO JOHN J",
+                            2585,
+                            false
+                        ],
+                        [
+                            "ALLEN PHILLIP K",
+                            2195,
+                            false
+                        ],
+                        [
+                            "HAEDICKE MARK E",
+                            1941,
+                            false
+                        ],
+                        [
+                            "KITCHEN LOUISE",
+                            1728,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 537,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "code8EGSic",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['from_messages', 'poi']].sort_values('from_messages', ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "from_messages",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "from_messages",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "CORDES WILLIAM R",
+                            12,
+                            false
+                        ],
+                        [
+                            "HAYES ROBERT E",
+                            12,
+                            false
+                        ],
+                        [
+                            "DURAN WILLIAM D",
+                            12,
+                            false
+                        ],
+                        [
+                            "GIBBS DANA R",
+                            12,
+                            false
+                        ],
+                        [
+                            "MCDONALD REBECCA",
+                            13,
+                            false
+                        ],
+                        [
+                            "FOY JOE",
+                            13,
+                            false
+                        ],
+                        [
+                            "BLACHMAN JEREMY M",
+                            14,
+                            false
+                        ],
+                        [
+                            "DODSON KEITH",
+                            14,
+                            false
+                        ],
+                        [
+                            "CARTER REBECCA C",
+                            15,
+                            false
+                        ],
+                        [
+                            "GLISAN JR BEN F",
+                            16,
+                            true
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 446,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "code9nbMtM",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['other', 'poi']].sort_values('other', ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "other",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "other",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "LAY KENNETH L",
+                            10359729,
+                            true
+                        ],
+                        [
+                            "FREVERT MARK A",
+                            7427621,
+                            false
+                        ],
+                        [
+                            "MARTIN AMANDA K",
+                            2818454,
+                            false
+                        ],
+                        [
+                            "BAXTER JOHN C",
+                            2660303,
+                            false
+                        ],
+                        [
+                            "SHERRIFF JOHN R",
+                            1852186,
+                            false
+                        ],
+                        [
+                            "PAI LOU L",
+                            1829457,
+                            false
+                        ],
+                        [
+                            "SHELBY REX",
+                            1573324,
+                            true
+                        ],
+                        [
+                            "IZZO LAWRENCE L",
+                            1553729,
+                            false
+                        ],
+                        [
+                            "WHITE JR THOMAS E",
+                            1085463,
+                            false
+                        ],
+                        [
+                            "KOPPER MICHAEL J",
+                            907502,
+                            true
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 525,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeVBYemz",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['other', 'poi']].sort_values('other', ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "other",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "other",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "WALLS JR ROBERT H",
+                            2,
+                            false
+                        ],
+                        [
+                            "BAY FRANKLIN R",
+                            69,
+                            false
+                        ],
+                        [
+                            "ALLEN PHILLIP K",
+                            152,
+                            false
+                        ],
+                        [
+                            "SULLIVAN-SHAKLOVITZ COLLEEN",
+                            162,
+                            false
+                        ],
+                        [
+                            "OVERDYKE JR JERE C",
+                            176,
+                            false
+                        ],
+                        [
+                            "BLACHMAN JEREMY M",
+                            272,
+                            false
+                        ],
+                        [
+                            "MURRAY JULIA H",
+                            330,
+                            false
+                        ],
+                        [
+                            "DIETRICH JANET R",
+                            473,
+                            false
+                        ],
+                        [
+                            "CALGER CHRISTOPHER F",
+                            486,
+                            true
+                        ],
+                        [
+                            "COX DAVID",
+                            494,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 537,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeCjLHNq",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['from_this_person_to_poi', 'poi']].sort_values('from_this_person_to_poi', ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "from_this_person_to_poi",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "from_this_person_to_poi",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "DELAINEY DAVID W",
+                            609,
+                            true
+                        ],
+                        [
+                            "LAVORATO JOHN J",
+                            411,
+                            false
+                        ],
+                        [
+                            "KEAN STEVEN J",
+                            387,
+                            false
+                        ],
+                        [
+                            "BECK SALLY W",
+                            386,
+                            false
+                        ],
+                        [
+                            "MCCONNELL MICHAEL S",
+                            194,
+                            false
+                        ],
+                        [
+                            "KITCHEN LOUISE",
+                            194,
+                            false
+                        ],
+                        [
+                            "KAMINSKI WINCENTY J",
+                            171,
+                            false
+                        ],
+                        [
+                            "BELDEN TIMOTHY N",
+                            108,
+                            true
+                        ],
+                        [
+                            "SHANKMAN JEFFREY A",
+                            83,
+                            false
+                        ],
+                        [
+                            "BUY RICHARD B",
+                            71,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 579,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeTWEnKt",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[['from_this_person_to_poi', 'poi']].sort_values('from_this_person_to_poi', ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "from_this_person_to_poi",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "from_this_person_to_poi",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "GIBBS DANA R",
+                            0,
+                            false
+                        ],
+                        [
+                            "MULLER MARK S",
+                            0,
+                            false
+                        ],
+                        [
+                            "HAYES ROBERT E",
+                            0,
+                            false
+                        ],
+                        [
+                            "POWERS WILLIAM",
+                            0,
+                            false
+                        ],
+                        [
+                            "TAYLOR MITCHELL S",
+                            0,
+                            false
+                        ],
+                        [
+                            "LEWIS RICHARD",
+                            0,
+                            false
+                        ],
+                        [
+                            "MARTIN AMANDA K",
+                            0,
+                            false
+                        ],
+                        [
+                            "CORDES WILLIAM R",
+                            0,
+                            false
+                        ],
+                        [
+                            "MCCLELLAN GEORGE",
+                            0,
+                            false
+                        ],
+                        [
+                            "FOY JOE",
+                            0,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 603,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "code9YYcZD",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "feature = 'deferred_income'",
+                    "enron_df[[feature, 'poi']].sort_values(feature, ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "deferred_income",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "deferred_income",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "BOWEN JR RAYMOND M",
+                            -833,
+                            true
+                        ],
+                        [
+                            "GAHN ROBERT S",
+                            -1042,
+                            false
+                        ],
+                        [
+                            "SHELBY REX",
+                            -4167,
+                            true
+                        ],
+                        [
+                            "BANNANTINE JAMES M",
+                            -5104,
+                            false
+                        ],
+                        [
+                            "WESTFAHL RICHARD K",
+                            -10800,
+                            false
+                        ],
+                        [
+                            "POWERS WILLIAM",
+                            -17500,
+                            false
+                        ],
+                        [
+                            "WINOKUR JR. HERBERT S",
+                            -25000,
+                            false
+                        ],
+                        [
+                            "LEMAISTRE CHARLES",
+                            -25000,
+                            false
+                        ],
+                        [
+                            "JAEDICKE ROBERT",
+                            -25000,
+                            false
+                        ],
+                        [
+                            "DUNCAN JOHN H",
+                            -25000,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 541,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 2
+        },
+        {
+            "id": "codejfuEv5",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[[feature, 'poi']].sort_values(feature, ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "deferred_income",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "asc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "deferred_income",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "RICE KENNETH D",
+                            -3504386,
+                            true
+                        ],
+                        [
+                            "FREVERT MARK A",
+                            -3367011,
+                            false
+                        ],
+                        [
+                            "HANNON KEVIN P",
+                            -3117011,
+                            true
+                        ],
+                        [
+                            "ALLEN PHILLIP K",
+                            -3081055,
+                            false
+                        ],
+                        [
+                            "BELDEN TIMOTHY N",
+                            -2334434,
+                            true
+                        ],
+                        [
+                            "BAXTER JOHN C",
+                            -1386055,
+                            false
+                        ],
+                        [
+                            "FASTOW ANDREW S",
+                            -1386055,
+                            true
+                        ],
+                        [
+                            "DERRICK JR. JAMES V",
+                            -1284000,
+                            false
+                        ],
+                        [
+                            "HAEDICKE MARK E",
+                            -934484,
+                            false
+                        ],
+                        [
+                            "DETMERING TIMOTHY J",
+                            -775241,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 532,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeXb7GOc",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "feature = 'long_term_incentive'",
+                    "enron_df[[feature, 'poi']].sort_values(feature, ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "long_term_incentive",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "long_term_incentive",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "MARTIN AMANDA K",
+                            5145434,
+                            false
+                        ],
+                        [
+                            "LAY KENNETH L",
+                            3600000,
+                            true
+                        ],
+                        [
+                            "ECHOLS JOHN B",
+                            2234774,
+                            false
+                        ],
+                        [
+                            "LAVORATO JOHN J",
+                            2035380,
+                            false
+                        ],
+                        [
+                            "SKILLING JEFFREY K",
+                            1920000,
+                            true
+                        ],
+                        [
+                            "FASTOW ANDREW S",
+                            1736055,
+                            true
+                        ],
+                        [
+                            "MULLER MARK S",
+                            1725545,
+                            false
+                        ],
+                        [
+                            "FREVERT MARK A",
+                            1617011,
+                            false
+                        ],
+                        [
+                            "HANNON KEVIN P",
+                            1617011,
+                            true
+                        ],
+                        [
+                            "RICE KENNETH D",
+                            1617011,
+                            true
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 796,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 2
+        },
+        {
+            "id": "codeyGF8cE",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[[feature, 'poi']].sort_values(feature, ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "long_term_incentive",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": [],
+                        "tableOrder": [
+                            [
+                                1,
+                                "desc"
+                            ]
+                        ]
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "long_term_incentive",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "HICKERSON GARY J",
+                            69223,
+                            false
+                        ],
+                        [
+                            "GLISAN JR BEN F",
+                            71023,
+                            true
+                        ],
+                        [
+                            "CARTER REBECCA C",
+                            75000,
+                            false
+                        ],
+                        [
+                            "BAZELIDES PHILIP J",
+                            93750,
+                            false
+                        ],
+                        [
+                            "OLSON CINDY K",
+                            100000,
+                            false
+                        ],
+                        [
+                            "MURRAY JULIA H",
+                            125000,
+                            false
+                        ],
+                        [
+                            "OVERDYKE JR JERE C",
+                            135836,
+                            false
+                        ],
+                        [
+                            "HERMANN ROBERT J",
+                            150000,
+                            false
+                        ],
+                        [
+                            "REYNOLDS LAWRENCE",
+                            156250,
+                            false
+                        ],
+                        [
+                            "BUTTS ROBERT H",
+                            175000,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 508,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "codeEaewe0",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "feature = 'from_poi_to_this_person'",
+                    "enron_df[[feature, 'poi']].sort_values(feature, ascending=False)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "from_poi_to_this_person",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "from_poi_to_this_person",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "LAVORATO JOHN J",
+                            528,
+                            false
+                        ],
+                        [
+                            "DIETRICH JANET R",
+                            305,
+                            false
+                        ],
+                        [
+                            "KITCHEN LOUISE",
+                            251,
+                            false
+                        ],
+                        [
+                            "FREVERT MARK A",
+                            242,
+                            false
+                        ],
+                        [
+                            "COLWELL WESLEY",
+                            240,
+                            true
+                        ],
+                        [
+                            "BELDEN TIMOTHY N",
+                            228,
+                            true
+                        ],
+                        [
+                            "REDMOND BRIAN L",
+                            204,
+                            false
+                        ],
+                        [
+                            "CALGER CHRISTOPHER F",
+                            199,
+                            true
+                        ],
+                        [
+                            "DONAHUE JR JEFFREY M",
+                            188,
+                            false
+                        ],
+                        [
+                            "WHALLEY LAWRENCE G",
+                            186,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 613,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 2
+        },
+        {
+            "id": "codebKXcpS",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[[feature, 'poi']].sort_values(feature, ascending=True)[:10]"
+                ]
+            },
+            "output": {
+                "state": {
+                    "datatablestate": {
+                        "pagination": {
+                            "use": true,
+                            "rowsToDisplay": 25,
+                            "fixLeft": 0,
+                            "fixRight": 0
+                        },
+                        "columnNames": [
+                            "from_poi_to_this_person",
+                            "poi"
+                        ],
+                        "actualtype": [
+                            "4.4",
+                            0
+                        ],
+                        "actualalign": [
+                            "R",
+                            "L"
+                        ],
+                        "colorder": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "getCellSho": [
+                            true,
+                            true
+                        ],
+                        "barsOnColumn": {},
+                        "heatmapOnColumn": {},
+                        "tableFilter": "",
+                        "showFilter": false,
+                        "columnSearchActive": false,
+                        "columnFilter": [],
+                        "columnWidth": []
+                    }
+                },
+                "result": {
+                    "columnNames": [
+                        "Index",
+                        "from_poi_to_this_person",
+                        "poi"
+                    ],
+                    "subtype": "TableDisplay",
+                    "values": [
+                        [
+                            "MEYER ROCKFORD G",
+                            0,
+                            false
+                        ],
+                        [
+                            "MORAN MICHAEL P",
+                            0,
+                            false
+                        ],
+                        [
+                            "BHATNAGAR SANJAY",
+                            0,
+                            false
+                        ],
+                        [
+                            "GIBBS DANA R",
+                            0,
+                            false
+                        ],
+                        [
+                            "PIRO JIM",
+                            0,
+                            false
+                        ],
+                        [
+                            "FOY JOE",
+                            0,
+                            false
+                        ],
+                        [
+                            "BUCHANAN HAROLD G",
+                            0,
+                            false
+                        ],
+                        [
+                            "THORN TERENCE H",
+                            0,
+                            false
+                        ],
+                        [
+                            "TAYLOR MITCHELL S",
+                            0,
+                            false
+                        ],
+                        [
+                            "FOWLER PEGGY",
+                            0,
+                            false
+                        ]
+                    ],
+                    "hasIndex": "true",
+                    "type": "TableDisplay",
+                    "types": [
+                        "string",
+                        "double",
+                        "boolean"
+                    ]
+                },
+                "selectedType": "Table",
+                "pluginName": "IPython",
+                "shellId": "F5D831FE7C9C49BAA390C218D87D12D6",
+                "elapsedTime": 531,
+                "height": 275
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
+        },
+        {
+            "id": "code2uaH5i",
+            "type": "code",
+            "evaluator": "IPython",
+            "input": {
+                "body": [
+                    "enron_df[enron["
+                ]
+            },
+            "output": {
+                "state": {}
+            },
+            "evaluatorReader": true,
+            "lineCount": 1
         }
     ],
     "tagMap": {
